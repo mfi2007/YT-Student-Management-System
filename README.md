@@ -1,2 +1,4 @@
 # YT-Student-Management-System
- Proctice project of student management system.
+ Practice project of the Student Management System.
+
+ Thanks to CodingEx t.ly/qWLSa
