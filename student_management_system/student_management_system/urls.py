@@ -33,6 +33,9 @@ urlpatterns = [
     
 # This is Hod Panel url    
     path('hod/home/', Hod_Views.HOD, name='hod_home'),
+    
+# Profile update
+    path('profile/', views.PROFILE, name='profile'),    
 
     
 ] + static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)
