@@ -36,6 +36,7 @@ urlpatterns = [
     
 # Profile update
     path('profile/', views.PROFILE, name='profile'),    
+    path('profile/update', views.PROFILE_UPDATE, name='profile_update'),    
 
     
 ] + static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)
